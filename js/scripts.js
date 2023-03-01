@@ -9,7 +9,7 @@ function newItem(){
       alert("You must write something!");
     } else {
       $('#list').append(li);
-    }} 
+    }
 
     function crossOut() {
 		li.toggleClass("strike");
@@ -27,3 +27,4 @@ function newItem(){
 function deleteListItem(){
 li.addClass("delete")}
 $('#list').sortable();
+}
